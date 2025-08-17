@@ -21,7 +21,8 @@ const VideoStreamingApp = () => {
   const categories = ['all', 'general', 'entertainment', 'education', 'music', 'sports', 'news', 'gaming', 'tech'];
 
   // Server API URL
-  const API_BASE_URL = 'http://localhost:5000/api';
+  // App.jsx
+const API_BASE_URL = '/api';
 
   // Load video duration from video element
   const loadVideoDuration = (videoUrl, videoId) => {
